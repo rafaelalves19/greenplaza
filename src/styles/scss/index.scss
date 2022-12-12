@@ -1,0 +1,76 @@
+@import "./_main.scss";
+@import "./_utils.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  max-width: 640px;
+
+  @include min-768 {
+    max-width: 768px;
+  }
+
+  @include min-1024 {
+    max-width: 1024px;
+  }
+
+  @include min-1280 {
+    max-width: 1280px;
+  }
+
+  @include min-1536 {
+    max-width: 1450px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @include min-768 {
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 32px;
+  }
+}
+
+:root {
+  --text-color: #ffff;
+  --button-color: #395122;
+  --main-color: #a8a191;
+  --secondary-color: #b7af9e;
+}
