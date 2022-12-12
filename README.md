@@ -14,10 +14,9 @@ Challenge
 * #### Tools used: 🛠️
   * ##### React Router;
   * ##### SASS;
-  * ##### Swiper;
   * ##### Npm;
   * ##### Terminal;
-  * ##### [API](https://www.themoviedb.org/);
+
 
 This site uses the mobile first design strategy. 🤳
 
