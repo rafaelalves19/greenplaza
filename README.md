@@ -1,6 +1,25 @@
 
-# GreenPlaza 
+# GreenPlaza 🏢🌲
 
+Challenge 
+
+## About this project 🧰
+
+* #### Languages and frameworks: 📚
+  * ##### HTML;
+  * ##### CSS;
+  * ##### JavaScript;
+  * ##### React;
+
+* #### Tools used: 🛠️
+  * ##### React Router;
+  * ##### SASS;
+  * ##### Swiper;
+  * ##### Npm;
+  * ##### Terminal;
+  * ##### [API](https://www.themoviedb.org/);
+
+This site uses the mobile first design strategy. 🤳
 
 
 
